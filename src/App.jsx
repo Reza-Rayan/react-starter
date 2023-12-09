@@ -1,20 +1,27 @@
-import {ArrowPathIcon} from '@heroicons/react/20/solid'
+import React from 'react';
+import './App.css';
+
+import heroImage from '../public/images/hero.png'
+
+//components 
+import Header from './components/Header';
 
 const App = () => {
   return (
-    <div className="h-screen bg-[#212121] flex flex-col justify-center items-center
-    text-white">
-      <h1 className="text-3xl font-semibold flex gap-5">
-        <ArrowPathIcon className="h-10 w-10  text-indigo-600" />
-        Start your project with edit App.js
-      </h1>
-      <h2 className='mt-5 text-2xl font-semibold mb-2'>Packages:</h2>
-      <ul className='text-center text-lg font-semibold  w-[60%]'>
-        <li className='p-2 rounded-xl hover:bg-indigo-500  transition-all'>React + Vite</li>
-        <li className='p-2 rounded-xl hover:bg-indigo-500  transition-all'>Tailwindcss</li>
-        <li className='p-2 rounded-xl hover:bg-indigo-500  transition-all'>React Router </li>
-        <li className='p-2 rounded-xl hover:bg-indigo-500  transition-all'>Hero Icons</li>
-      </ul>
+    <div>
+      <Header />
+      {/* Hero Section */}
+      <section className='container mx-auto grid grid-cols-1 lg:grid-cols-2'>
+        <div className='text-center '>
+          <p className='text-[#0064AF] font-bold text-xl'>چـون آشنـا داری آنـی پـول تـو حسابتـه!</p>
+          <p className='text-justify leading-8 lg:pl-36 '>
+          در تمـام طـول روز، حتـی روزهـای تعطیـل می‌تونـی مانـده قابـل برداشـت حسابـت پیـش کارگـزاری سهـم آشنـا رو بـه بانـک‌هـای منتخـب منتقـل کنـی.
+          </p>
+        </div>
+        <div className='flex justify-center items-center'>
+          <img src={heroImage} alt="hero image" />
+        </div>
+      </section>
     </div>
   )
 }

@@ -3,3 +3,54 @@
 @tailwind components;
 @tailwind utilities;
 /* import tailwind components */
+
+@font-face {
+    font-family: 'peyda';
+    src: url('../public/fonts/PeydaWeb-Bold.woff');
+    src: url('../public/fonts/PeydaWeb-ExtraBold.woff');
+    src: url('../public/fonts/PeydaWeb-Medium.woff');
+    src: url('../public/fonts/PeydaWeb-Regular.woff');
+    src: url('../public/fonts/PeydaWeb-Thin.woff');
+    src: url('../public/fonts/peydaWeb-extralight.woff');
+    src: url('../public/fonts/peydaWeb-light.eot');
+}
+
+@font-face {
+    font-family: 'iransans';
+    src: url('../public/fonts/IRANSansWeb.woff');
+    src: url('../public/fonts/IRANSansWeb_Black.woff');
+    src: url('../public/fonts/IRANSansWeb_Bold.woff');
+    src: url('../public/fonts/IRANSansWeb_Light.woff');
+    src: url('../public/fonts/IRANSansWeb_Medium.woff');
+    src: url('../public/fonts/IRANSansWeb_UltraLight.woff');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+ol {
+    font-family: 'peyda' !important;
+}
+
+p,
+div,
+span,
+a,
+button,
+section,
+main {
+    font-family: 'iransans' !important;
+    font-weight: 600;
+}
+
+*{
+    color: #58595B;
+    outline: none;
+}
+
+
