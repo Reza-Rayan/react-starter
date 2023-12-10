@@ -10,19 +10,19 @@ const Header = () => {
         <header>
             <div className='relative'>
                 <img src={topCircle} alt="top circle" width={300}
-                className='absolute left-0 top-0' />
+                    className='absolute left-0 top-0' />
             </div>
             <div className='container mx-auto flex justify-between items-center py-10'>
                 <div className='flex gap-x-4 items-center justify-center'>
                     <Logo />
-                    <ul className='flex gap-5 text-[13pt] font-semibold'>
-                        <a href="#">
+                    <ul className='lg:flex gap-5 text-[13pt] font-semibold overflow-hidden'>
+                        <a className='navItem transition-all hover:text-[#0064AF] relative' href="#">
                             <li>کارگزاری</li>
                         </a>
-                        <a href="#">
+                        <a className='navItem transition-all hover:text-[#0064AF] relative' href="#">
                             <li>باشگاه مشتریان</li>
                         </a>
-                        <a href="#">
+                        <a className='navItem transition-all hover:text-[#0064AF] relative' href="#">
                             <li>آشناپلاس</li>
                         </a>
                     </ul>
