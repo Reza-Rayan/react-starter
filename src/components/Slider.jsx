@@ -22,7 +22,7 @@ export default function Slider() {
             setSlidesPerView(window.innerWidth >= 640 ? 2 : 1);
         };
         const updateSlidesPerTabletView = () => {
-            setSlidesPerView(window.innerWidth >= 1300 ? 7 :2);
+            setSlidesPerView(window.innerWidth >= 1300 ? 7 : 3);
         };
 
         // Set initial value
