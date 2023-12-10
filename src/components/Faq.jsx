@@ -18,7 +18,7 @@ const Faq = () => {
             <button
                 onClick={oepnFaq}
                 className='bg-[#FF6010] mx-auto w-[260px] py-1 peydaFont font-bold shadow-xl rounded-xl text-white border 
-            border-[#FF6010] text-[16pt]'>
+            border-[#FF6010] text-[16pt] z-10'>
                 سوالات متداول
             </button>
             <img src={arrow} alt="Arrow" width={20} className={`mx-auto ${open ? 'rotate-[-90deg]' : 'rotate-90'} mt-5 transition-all`} />

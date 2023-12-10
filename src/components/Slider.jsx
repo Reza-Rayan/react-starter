@@ -19,10 +19,10 @@ export default function Slider() {
 
     useEffect(() => {
         const updateSlidesMobilePerView = () => {
-            setSlidesPerView(window.innerWidth >= 640 ? 7 : 1);
+            setSlidesPerView(window.innerWidth >= 640 ? 2 : 1);
         };
         const updateSlidesPerTabletView = () => {
-            setSlidesPerView(window.innerWidth >= 1300 ? 7 : 7);
+            setSlidesPerView(window.innerWidth >= 1300 ? 7 :2);
         };
 
         // Set initial value

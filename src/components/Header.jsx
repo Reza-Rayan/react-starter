@@ -10,12 +10,12 @@ const Header = () => {
         <header>
             <div className='relative'>
                 <img src={topCircle} alt="top circle" width={300}
-                    className='absolute left-0 top-0' />
+                    className='absolute left-0 top-0 hidden lg:block ' />
             </div>
-            <div className='container mx-auto flex justify-between items-center py-10'>
+            <div className='container mx-auto flex justify-between items-center py-10 px-2'>
                 <div className='flex gap-x-4 items-center justify-center'>
                     <Logo />
-                    <ul className='lg:flex gap-5 text-[13pt] font-semibold overflow-hidden'>
+                    <ul className='lg:flex hidden gap-5 text-[13pt] font-semibold overflow-hidden'>
                         <a className='navItem transition-all hover:text-[#0064AF] relative' href="#">
                             <li>کارگزاری</li>
                         </a>
