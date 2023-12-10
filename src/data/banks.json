@@ -1,0 +1,92 @@
+{
+    "banks": [
+        {
+            "id": 1,
+            "photoURl": "/public/images/logo-bank/saderat.png"
+        },
+        {
+            "id": 2,
+            "photoURl": "/public/images/logo-bank/shahr.png"
+        },
+        {
+            "id": 3,
+            "photoURl": "/public/images/logo-bank/sepah.png"
+        },
+        {
+            "id": 4,
+            "photoURl": "/public/images/logo-bank/eghtesad.png"
+        },
+        {
+            "id": 5,
+            "photoURl": "/public/images/logo-bank/parsian.png"
+        },
+        {
+            "id": 6,
+            "photoURl": "/public/images/logo-bank/tejarat.png"
+        },
+        {
+            "id": 7,
+            "photoURl": "/public/images/logo-bank/keshavarzi.png"
+        },
+        {
+            "id": 8,
+            "photoURl": "/public/images/logo-bank/resalat.png"
+        },
+        {
+            "id": 9,
+            "photoURl": "/public/images/logo-bank/postBank.png"
+        },
+        {
+            "id": 10,
+            "photoURl": "/public/images/logo-bank/maskan.png"
+        },
+        {
+            "id": 11,
+            "photoURl": "/public/images/logo-bank/karAfarin.png"
+        },
+        {
+            "id": 12,
+            "photoURl": "/public/images/logo-bank/sarmaye.png"
+        },
+        {
+            "id": 13,
+            "photoURl": "/public/images/logo-bank/saman.png"
+        },
+        {
+            "id": 14,
+            "photoURl": "/public/images/logo-bank/pasargad.png"
+        },
+        {
+            "id": 15,
+            "photoURl": "/public/images/logo-bank/etebariTose.png"
+        },
+        {
+            "id": 16,
+            "photoURl": "/public/images/logo-bank/iranZamin.png"
+        },
+        {
+            "id": 17,
+            "photoURl": "/public/images/logo-bank/toseeSaderat.png"
+        },
+        {
+            "id": 18,
+            "photoURl": "/public/images/logo-bank/mellat.png"
+        },
+        {
+            "id": 19,
+            "photoURl": "/public/images/logo-bank/melli.png"
+        },
+        {
+            "id": 20,
+            "photoURl": "/public/images/logo-bank/ayande.png"
+        },
+        {
+            "id": 21,
+            "photoURl": "/public/images/logo-bank/refah.png"
+        },
+        {
+            "id": 22,
+            "photoURl": "/public/images/logo-bank/sanatMadan.png"
+        }
+    ]
+}

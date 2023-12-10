@@ -10,6 +10,7 @@ import Header from './components/Header';
 import CustomButton from './components/CustomButton';
 import RoadMap from './components/RoadMap';
 import Faq from './components/Faq';
+import Slider from './components/Slider';
 
 const App = () => {
   return (
@@ -77,7 +78,7 @@ const App = () => {
           <div className='mx-auto w-[300px]'>
             <p className='bg-[#0064AF] border border-[#0064AF] text-white text-[14pt] px-6 py-2 rounded-lg shadow-lg
              text-center block  transition-all
-            hover:bg-white hover:text-[#0064AF] hover:shadow-sm '>
+             hover:bg-white hover:text-[#0064AF] hover:shadow-sm '>
               برداشت تا سقف 100میلیون
             </p>
             <p className='text-justify text-[13pt] mt-4' >
@@ -98,6 +99,15 @@ const App = () => {
         <div className='container mx-auto '>
           <Faq />
         </div>
+      </section>
+
+
+
+      <section className='container mx-auto my-20'>
+        <h2 className='text-center text-[#0064AF] text-[20pt]'>
+          بانک های منتخب کدامند؟
+        </h2>
+        <Slider />
       </section>
 
     </div>
