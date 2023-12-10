@@ -50,3 +50,8 @@
 .closeFaq {
     max-height: 0;
 }
+.footerBg{
+    background-image: url('/public/shapes/footer.png');
+    background-position: center;
+    background-size: cover;
+}
