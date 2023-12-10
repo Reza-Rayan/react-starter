@@ -15,19 +15,22 @@ import { banks } from '../data/banks.json'
 
 
 export default function Slider() {
-    const [slidesPerView, setSlidesPerView] = useState(7);
+    const [slidesPerView, setSlidesPerView] = useState(window.innerWidth >= 640 ? 4 : 1);
 
     useEffect(() => {
         const updateSlidesMobilePerView = () => {
-            setSlidesPerView(window.innerWidth >= 640 ? 2 : 1);
+            setSlidesPerView(window.innerWidth >= 1024 ? 6 : 4);
         };
         const updateSlidesPerTabletView = () => {
-            setSlidesPerView(window.innerWidth >= 1300 ? 7 : 3);
+            setSlidesPerView(window.innerWidth >= 1300 ? 6 : 4);
         };
 
-        // Set initial value
-        updateSlidesMobilePerView();
-        updateSlidesPerTabletView();
+        // Set initial value based on initial screen width
+        if (window.innerWidth >= 1024) {
+            setSlidesPerView(6);
+        } else if (window.innerWidth >= 640) {
+            setSlidesPerView(4);
+        }
 
         window.addEventListener('resize', updateSlidesMobilePerView);
         window.addEventListener('resize', updateSlidesPerTabletView);
@@ -56,7 +59,7 @@ export default function Slider() {
                         <SwiperSlide key={item.id}>
                             <div className='bg-white rounded-xl mb-2 shadow-lg  transition-all hover:shadow-md 
                             flex justify-center items-center
-                            w-[210px] h-[210px]'>
+                            w-[210px] h-[210px] mx-auto'>
                                 <img src={item.photoURl} width={100} height={100} />
                             </div>
                         </SwiperSlide>
